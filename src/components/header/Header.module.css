@@ -1,0 +1,21 @@
+.header {
+    height: rem(56px);
+    margin-bottom: rem(120px);
+    /* background-color: var(--mantine-color-blue-filled); */
+    background: linear-gradient(
+        50deg,
+        var(--mantine-color-blue-filled),
+        var(--mantine-color-cyan-filled)
+    );
+
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    border-radius: var(--mantine-radius-lg);
+}
+
+.inner {
+    height: rem(56px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
